@@ -1,0 +1,285 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 530,
+      "max": [
+        -0.008051633834838867,
+        2.0042290687561035,
+        0.0561215914785862
+      ],
+      "min": [
+        -0.5670839548110962,
+        -1.9593565464019775,
+        -0.0784507691860199
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6360,
+      "componentType": 5126,
+      "count": 530,
+      "max": [
+        0.9969630837440491,
+        0.9889603853225708,
+        1.0
+      ],
+      "min": [
+        -0.9951813220977783,
+        -0.9860572814941406,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 530,
+      "max": [
+        0.9995877742767334,
+        0.9994466304779053,
+        0.9904236793518066,
+        1.0
+      ],
+      "min": [
+        -0.8705205321311951,
+        -0.8637717962265015,
+        -0.9973258972167969,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 530,
+      "max": [
+        0.9410857558250427,
+        0.8115924000740051
+      ],
+      "min": [
+        0.06660068035125732,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2148,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "MakarovGreenBird (https://sketchfab.com/ericpiresfernandes)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/main-evidence-of-crime-12d10f69d1be49adbef336dc4162d10f",
+      "title": "Main evidence of crime!"
+    },
+    "generator": "Sketchfab-15.17.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 8592,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4240,
+      "byteOffset": 8592,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12720,
+      "byteOffset": 12832,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8480,
+      "byteOffset": 25552,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 34032,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/bake_baseColor.png"
+    },
+    {
+      "uri": "textures/bake_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/bake_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "bake",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.8396216064658483
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Lamina1_low_bake_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "ea7c5638d0914339bf21c1b6c1bff893.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        11.008323669433594,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        -1.7934835711892997e-06,
+        -11.008323669433448,
+        0.0,
+        0.0,
+        11.008323669433448,
+        -1.7934835711892997e-06,
+        0.0,
+        -16.799772262573242,
+        0.12290339171886444,
+        34.67335510253906,
+        1.0
+      ],
+      "name": "Lamina1_low"
+    },
+    {
+      "mesh": 0,
+      "name": "Lamina1_low_bake_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
